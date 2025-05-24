@@ -1,0 +1,62 @@
+.bangers-regular {
+  font-family: "Bangers", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-regular {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.libre-baskerville-bold {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+
+.glass-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  width: 300px;
+  height: 450px;
+}
+
+.glass-card:hover {
+  transform: scale(1.03); /* subtle zoom */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+}
+
+.prj-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.prj-card:hover {
+  transform: scale(1.03); /* subtle zoom */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2); /* deeper shadow on hover */
+}
+
+.gradient-background {
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
